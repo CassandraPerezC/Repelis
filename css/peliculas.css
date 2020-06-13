@@ -1,0 +1,76 @@
+#flu{
+  padding: 5px;
+}
+
+.galleri-box{
+  padding: 20px 0px;	
+  padding-left:30px;
+  padding-right: 30px;
+  
+}
+
+.galleri-box ul{}
+.galleri-box ul li{
+	position: relative;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	border: none;
+	overflow: hidden;
+}
+.galleri-box ul li a{
+	position: relative;
+	display: inline-block;
+}
+
+.galleri-box ul li a .overlay{
+	color: #eeeeee;
+	font-size: 22px;
+	text-align: center;
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+}
+.galleri-box ul li a:hover::before{
+	top: 0;
+	opacity: 1;
+}
+.galleri-box ul li a:hover .overlay{
+	opacity: 6;
+}
+
+
+/*Paginador*/
+.block-27 ul {
+	padding: 0px 120px 10px;
+	margin: 0; }
+	.block-27 ul li {
+	  display: inline-block;
+	  margin-bottom: 4px;
+	  font-weight: 400; }
+	  .block-27 ul li a, .block-27 ul li span {
+		color: #0092ca;
+		text-align: center;
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 50%;
+		border: 1px solid #eeeeee; }
+	  .block-27 ul li.active a, .block-27 ul li.active span {
+		background: #9ce0f71a;
+		color: #26baee;
+		border: 1px solid transparent; }
+  
+  
